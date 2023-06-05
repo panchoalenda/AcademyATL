@@ -2,6 +2,6 @@
   "category": "Paises ",
   "question": "¿Cuál es el país más grande del mundo en términos de superficie?",
   "options": ["Argentina", "Chile", "Rusia"],
-  "answer": 2,
+  "answer": 0,
   "explanation": "El país más grande del mundo en términos de superficie es Rusia. Con aproximadamente 17.1 millones de kilómetros cuadrados, Rusia abarca gran parte del norte de Asia y parte de Europa. Su extenso territorio se extiende desde Europa del Este hasta el extremo oriental de Asia, abarcando once husos horarios y una amplia variedad de paisajes y climas."
 }
