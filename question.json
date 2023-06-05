@@ -4,39 +4,4 @@
   "options": ["Argentina", "Chile", "Rusia"],
   "answer": 2,
   "explanation": "El país más grande del mundo en términos de superficie es Rusia. Con aproximadamente 17.1 millones de kilómetros cuadrados, Rusia abarca gran parte del norte de Asia y parte de Europa. Su extenso territorio se extiende desde Europa del Este hasta el extremo oriental de Asia, abarcando once husos horarios y una amplia variedad de paisajes y climas."
-},
-{
-  "category": "Físicas",
-  "question": "¿Cuál es la ley de la física que establece que la energía no se crea ni se destruye, solo se transforma?",
-  "options": ["Ley de Newton","Ley de gravitación universal", "Ley de la conservación de la masa"],
-  "answer": 0,
-  "explanation": "La ley de la conservación de la energía, también conocida como el principio de conservación de la energía o la primera ley de la termodinámica."
-},
-{
-  "category": "Deportes",
-  "question": "¿Cuál es el deporte más popular en el mundo?",
-  "options": ["Fútbol", "Handball", "Basquet"],
-  "answer": 0,
-  "explanation": "El fútbol (también conocido como soccer en algunos países) es considerado el deporte más popular en el mundo en términos de número de seguidores, participantes y espectadores. Es jugado en casi todos los países y cuenta con eventos deportivos de gran envergadura, como la Copa del Mundo de la FIFA."
-},
-{
-  "category": "Años",
-  "question": "¿En qué año ocurrió la Revolución Francesa?",
-  "options": ["2021","1789","2023"],
-  "answer": 1,
-  "explanation": "La Revolución Francesa ocurrió en el año 1789 y se extendió hasta finales de la década de 1790. Fue un período de agitación política y social en Francia, en el que se derrocó la monarquía y se estableció la Primera República Francesa, marcando un hito importante en la historia política y social del país."
-},
-{
-  "category": "Películas",
-  "question": "¿Cuál es la película más taquillera de todos los tiempos?",
-  "options": ["Volver al Futuro", "9 corazones", "Avengers: Endgame"],
-  "answer": 2,
-  "explanation": "La película más taquillera de todos los tiempos es Avengers: Endgame (Vengadores: Endgame), lanzada en 2019. La película, producida por Marvel Studios y dirigida por los hermanos Russo, recaudó más de 2.800 millones de dólares en la taquilla mundial, superando así a Avatar (2009) de James Cameron, que ostentaba el récord anterior."
-},
-{
-  "category": "Cocina",
-  "question": "¿Cuál es el ingrediente principal del guacamole?",
-  "options": ["Tomate","Acelga","Aguacate"],
-  "answer": 2,
-  "explanation": "El ingrediente principal del guacamole es el aguacate. El aguacate se utiliza como base para preparar esta popular salsa mexicana, y se suele combinar con otros ingredientes como cebolla, tomate, cilantro, limón y especias para darle sabor. El guacamole es muy versátil y se puede disfrutar como acompañamiento, dip o incluso como relleno en diferentes platos."
 }
