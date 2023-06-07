@@ -21,26 +21,20 @@ public class Main {
             switch (opcion) {
                 case 1 -> {
                     Helper.opcion1();
-                    System.out.println("Eligió opcion 1");
                 }
                 case 2 -> {
                     Helper.opcion2();
-                    System.out.println("Eligió opcion 2");
                 }
                 case 3 -> {
                     Helper.opcion3();
-                    System.out.println("Eligió opcion 3");
                 }
                 case 4 -> {
                     Helper.opcion4();
-                    System.out.println("Eligió opcion 4");
                 }
                 case 5 -> {
                     Helper.opcion5();
-                    System.out.println("Eligió opcion 5");
                 }
                 case 6 -> {
-                    System.out.println("Eligió opcion 6");
                     continue;
                 }
             }
