@@ -38,7 +38,7 @@ public class Main {
                     continue;
                 }
             }
-            System.out.println("Presione una \"Enter\" para continuar");
+            System.out.println("Presione un \"Enter\" para continuar");
             pausar.nextLine();
 
             System.out.println();
