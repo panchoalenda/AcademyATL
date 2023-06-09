@@ -111,19 +111,19 @@ public class Helper {
         Integer[] numeros = new Integer[cant];
 
         System.out.println("A continuación se le pedirá que ingrese los " + cant + " números");
-        for(int i = 0; i < cant; i++) {
-            System.out.println("Ingrese un numero entero para la posición " + (i+1));
+        for (int i = 0; i < cant; i++) {
+            System.out.println("Ingrese un numero entero para la posición " + (i + 1));
             numeros[i] = sc.nextInt();
-            total +=  numeros[i];
+            total += numeros[i];
         }
 
         System.out.print("A continuación mostramos los números ingresados: ");
-        for (Integer n : numeros){
+        for (Integer n : numeros) {
             System.out.print(n + ", ");
         }
         System.out.println();
         System.out.print("El promedio de todos los números ingresados es: ");
-        System.out.print(total/numeros.length);
+        System.out.print(total / numeros.length);
         System.out.println();
     }
 
@@ -131,11 +131,11 @@ public class Helper {
 
         System.out.println("Ingrese la cantidad de números a solicitar, para luego conocer el mayor y el menor");
         System.out.println("El mismo debe ser un número entero.");
-       int cant = sc.nextInt();
+        int cant = sc.nextInt();
         Integer[] numeros = new Integer[cant];
 
-       for (int i = 0; i < cant; i++){
-            System.out.println("Ingrese el valor " + (i+1));
+        for (int i = 0; i < cant; i++) {
+            System.out.println("Ingrese el valor " + (i + 1));
             numeros[i] = sc.nextInt();
         }
 
@@ -155,37 +155,44 @@ public class Helper {
         int numero = sc.nextInt();
         int cont = 1;
 
-        while (cont <= numero){
+        while (cont <= numero) {
             System.out.print(cont + ", ");
             cont++;
         }
     }
 
     public static void opcion8() {
-        System.out.println("Ingrese una de las siguientes opciones (1, 2 ó 3:");
-        System.out.println("(1) - Piedra");
-        System.out.println("(2) - Papel");
-        System.out.println("(3) - Tijera");
-        int eleUsuario = sc.nextInt();
+        String[] opciones = {"piedra", "papel", "tijera"};
+        System.out.println("Ingrese una de las siguientes opciones:");
+        System.out.println("""
+          - Piedra
+          - Papel
+          - Tijera""");
+        String eleUsuario = (sc.nextLine()).toLowerCase();
 
-        int eleCompu = (int)((Math.random() * 3) + 1);
+        int randomCompu = (int) ((Math.random() * 3));
+        String eleCompu = opciones[randomCompu];
 
-        if(eleUsuario == eleCompu){
-            System.out.println("EMPATARON!!! Tanto la computadora como usted eligieron lo mismo");
-        }else if(eleUsuario == 1 && eleCompu == 2){
-            System.out.println("Usted perdió!! La computadora eligió \"Papel\" y usted eligió \"Piedra\"");
-        }else if(eleUsuario == 1 && eleCompu == 3){
-            System.out.println("Usted GANÓ!! La computadora eligió \"Tijera\" y usted eligió \"Piedra\"");
-        }else if(eleUsuario == 2 && eleCompu == 1){
-            System.out.println("Usted GANÓ!! La computadora eligió \"Piedra\" y usted eligió \"Papel\"");
-        }else if(eleUsuario == 2 && eleCompu == 3){
-            System.out.println("Usted PERDIÓ!! La computadora eligió \"Tijera\" y usted eligió \"Papel\"");
-        }else if(eleUsuario == 3 && eleCompu == 1){
-            System.out.println("Usted PERDIÓ!! La computadora eligió \"Piedra\" y usted eligió \"Tijera\"");
-        }else if(eleUsuario == 3 && eleCompu == 2){
-            System.out.println("Usted GANÓ!! La computadora eligió \"Papel\" y usted eligió \"Tijera\"");
+        System.out.println("Usted eligió: " + eleUsuario);
+        System.out.println("La computadora eligió: " + eleCompu);
+
+        if (eleUsuario.equals(eleCompu)) {
+            System.out.println("**********************************************************************");
+            System.out.println("EMPATARON!!! Tanto la computadora como usted eligieron \"" + eleUsuario + "\"");
+            System.out.println("**********************************************************************");
+        } else if (eleUsuario.equals("piedra") && eleCompu.equals("tijera") ||
+          eleUsuario.equals("papel") && eleCompu.equals("piedra") ||
+          eleUsuario.equals("tijera") && eleCompu.equals("papel")) {
+            System.out.println("**********************************************************************");
+            System.out.println("Felicitaciones GANÓ!! Usted eligió \"" + eleUsuario +
+              "\" y la computadora eligió \"" + eleCompu + "\"");
+            System.out.println("**********************************************************************");
+        } else {
+            System.out.println("**********************************************************************");
+            System.out.println("PERDIÓ!! Usted eligió \"" + eleUsuario +
+              "\" y la computadora eligió \"" + eleCompu + "\"");
+            System.out.println("**********************************************************************");
         }
-
     }
 }
 

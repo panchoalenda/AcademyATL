@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Paises",
+    "description": "Preguntas relacionadas con los Países."
+  },
+  {
+    "category": "Física",
+    "description": "Preguntas relacionadas con Leyes Física."
+  },
+  {
+    "category": "Deporte",
+    "description": "Preguntas relacionadas con Deportes."
+  },
+  {
+    "category": "Años",
+    "description": "Preguntas relacionadas Años."
+  },
+  {
+    "category": "Películas",
+    "description": "Preguntas relacionadas Películas."
+  },
+  {
+    "category": "Cocina",
+    "description": "Preguntas relacionadas con Cocina."
+  }
+]
